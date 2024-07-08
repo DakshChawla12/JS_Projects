@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <h1>Generate a <br> <span>Random password</span></h1>
+
+        <div class="display">
+
+            <input type="text" id="password" placeholder="password">
+            <div class="control">
+                <button type="button" class="btn btn-outline-success copy">copy</button>
+                <div class="hello">
+                    <label for="customRange1" class="form-label">Select password length: <span id="rangeValue">12</span></label>
+                    <input type="range" class="form-range" id="customRange1">
+                </div>
+            </div>
+
+        </div>
+
+        <button type="button" class="generate"> <img src="rpg_img/images/generate.png" alt="">Generate Password</button>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
